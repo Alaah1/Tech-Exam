@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.5px;
+}
+.container{
+    text-align: center;
+}
+.header{
+    background-color: brown;
+    height:10vh;
+    color: white;
+    margin-bottom:2.5vh;
+    padding-top:5vh;
+}
+.health{
+    margin: auto;
+    margin-top:1.5vh;
+    width:30%;
+    height: 12vh;
+    display:block;
+    border-radius: 10px;
+    padding-top:2vh;
+    box-shadow: 0 0 7px rgb(155, 152, 152);
+}
+.general_titles{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.health progress{
+    width:98%;
+    height: 4vh;
+    margin-top: 2vh;
+    border-radius: 0;
+}
+.middle_block{
+    width:100%;
+}
+.buttons{
+    margin:auto;
+    width: 20%;
+    height:13vh;
+    margin-top: 4vh;
+    margin-bottom:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#result{
+    display: block;
+    border-radius: 10px;
+    margin:auto;
+    width: 30%;
+    height:16vh;
+    margin-top:4vh;
+    margin-bottom:20px;
+    box-shadow: 0 0 7px rgb(155, 152, 152);
+}
+#result *{
+    margin-top: 1vh;
+}
+.middle_block input[type="button"]
+{
+    box-shadow: 0 0 2px rgb(155, 152, 152);
+    width: calc(100%/2 - 20px);
+    margin:auto;
+    margin-bottom:20px;
+    height: 5vh;
+    background-color: rgb(168, 2, 66);
+    border-radius: 7px;
+    color: white;
+    border: 0;
+}
+.middle_block input[type="button"]:hover{
+    background-color: rgb(198, 4, 78);
+}
+#result input[type="button"]{
+    width:25%;
+    margin-top: 2.5vh;
+}
+.log{
+    box-shadow: 0 0 7px rgb(155, 152, 152);
+    margin: auto;
+    margin-top:1vh;
+    margin-bottom: 5vh;
+    width:30%;
+    height: max-content;
+    display:block;
+    border-radius: 10px;
+    min-height: 10vh;
+    padding-top: 15px;
+
+}
+.player{
+    color:purple;
+}
+.mons_span{
+    color:orange;
+}
+.loss{
+    color:red;
+}
+.gain{
+    color:green;
+}
+#result_text{
+    font-size: 15px;
+    font-weight: bolder;
+    display: block;
+}

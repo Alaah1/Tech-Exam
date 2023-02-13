@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill The Monster</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Kill the Monster</h1>
+        </div>
+        <div class="health">
+            <label for="monster_health" class="general_titles">Monster Health</label>
+            <progress id="monster_health" value="100" min="0" max="100"></progress>
+        </div>
+        <div class="health">
+            <label class="general_titles" for="your_health">Your Health</label>
+            <progress id="your_health" value="100" min="0" max="100"></progress>
+        </div>
+        <div class="middle_block">
+            <div class="buttons" id="buttons">
+                <input type="button" value="ATTACK" onclick="attack()">
+                <input type="button" value="SPECIAL ATTACK" onclick="sp_attack()">
+                <input type="button" value="Heal" onclick="heal()">
+                <input type="button" value="GIVE UP" onclick="giveUP()">
+            </div>
+            <div id="result">
+                <span class="general_titles">Game Over!</span>
+                <span id="result_text"></span>
+                <input type="button" value="Start New Game" onclick="start_New()">
+            </div>
+        </div>
+        <div class="log" id="logs">
+            
+        </div>
+    </div>
+    <script>start_New();</script>
+</body>
+</html>
